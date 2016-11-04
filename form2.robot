@@ -16,7 +16,22 @@ no.1:กรอกเฉพาะชื่อสกุล
     Open Browser    ${WEB_LINK}
     เลือกใบสมัครงาน
 
+no.128:ไม่กรอกข้อมูลเลยซักช่อง
+    Set Selenium Timeout    20
+    Sleep    2s
+    Input Text    id=fullname    ${VALID_FULLNAME}
+    Select Radio Button    qualification    ม.3
+    Input Text    id=qualification_from    ${VALID_GRADUATION}
+    Input Text    id=avg_grade    ${VALID_AVGGRADE}
+    Input Text    id=telephone    ${VALID_TELEPHONE}
+    Choose File    id=photo    ${VALID_PHOTOFILE}
+    Choose File    id=resume_file    ${VALID_RESUMEFILE}
+    บันทึกข้อมูล
+    Wait Until Page Contains    กรอกใบสมัครเรียบร้อย
+
+
 no.2:เลือกเฉพาะวุฒการศึกษา
+    เลือกใบสมัครงาน
     Set Selenium Timeout    20
     Sleep    2s
     Select Radio Button    qualification    ม.3
@@ -1541,24 +1556,13 @@ no.127:ไม่กรอกข้อมูลเลยซักช่อง
     Wait Until Page Contains    กรุณาเลือกรูป
     Wait Until Page Contains    กรุณาเลือกไฟล์ resume
 
-no.128:ไม่กรอกข้อมูลเลยซักช่อง
-    Set Selenium Timeout    20
-    Sleep    2s
-    Input Text    id=fullname    ${VALID_FULLNAME}
-    Select Radio Button    qualification    ม.3
-    Input Text    id=qualification_from    ${VALID_GRADUATION}
-    Input Text    id=avg_grade    ${VALID_AVGGRADE}
-    Input Text    id=telephone    ${VALID_TELEPHONE}
-    Choose File    id=photo    ${VALID_PHOTOFILE}
-    Choose File    id=resume_file    ${VALID_RESUMEFILE}
-    บันทึกข้อมูล
-    Wait Until Page Contains    กรอกใบสมัครเรียบร้อย
-
 *** Keywords ***
 เปิดเว็บ
     Open Browser    ${WEB_LINK}
 
 เลือกใบสมัครงาน
+    Click element    link=งานล่าสุด
+    Sleep    1s
     Click element    link=กรอกใบสมัคร
     Sleep    3s
 
