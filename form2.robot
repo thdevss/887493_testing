@@ -8,8 +8,8 @@ ${VALID_QUALIFICATION}    ปริญญาตรี
 ${VALID_GRADUATION}    ม.บูรพา
 ${VALID_AVGGRADE}    3.99
 ${VALID_TELEPHONE}    082-299-9922
-${VALID_PHOTOFILE}    /Users/a57660132/Desktop/test/profile.jpg
-${VALID_RESUMEFILE}    /Users/a57660132/Desktop/test/resume.pdf
+${VALID_PHOTOFILE}    /Users/a57660132/robottest/887493/profile.jpg
+${VALID_RESUMEFILE}    /Users/a57660132/robottest/887493/resume.pdf
 
 *** Testcases ***
 no.1:กรอกเฉพาะชื่อสกุล
@@ -28,7 +28,6 @@ no.128:ไม่กรอกข้อมูลเลยซักช่อง
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
     Wait Until Page Contains    กรอกใบสมัครเรียบร้อย
-
 
 no.2:เลือกเฉพาะวุฒการศึกษา
     เลือกใบสมัครงาน
@@ -1176,7 +1175,7 @@ no.97:ชื่อ-นามสกุล : ศานติกร อภัย,�
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
-    Wait Until Page Contains    กรุณากรอกเกรดให้ถูกต้อง    
+    Wait Until Page Contains    กรุณากรอกเกรดให้ถูกต้อง
     Wait Until Page Contains    กรุณาเลือกวุฒิการศึกษา
     Wait Until Page Contains    กรุณากรอกสถานศึกษาที่จบมา
 
