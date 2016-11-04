@@ -15,8 +15,18 @@ ${VALID_RESUMEFILE}    /Users/a57660132/robottest/887493/resume.pdf
 no.1:กรอกเฉพาะชื่อสกุล
     Open Browser    ${WEB_LINK}
     เลือกใบสมัครงาน
+    Set Selenium Timeout    20
+    Sleep    2s
+    Input Text    id=fullname    ${VALID_FULLNAME}
+    บันทึกข้อมูล
+    Wait Until Page Contains    กรุณาเลือกวุฒิการศึกษา
+    Wait Until Page Contains    กรุณากรอกสถานศึกษาที่จบมา
+    Wait Until Page Contains    กรุณากรอกเกรดให้ถูกต้อง
+    Wait Until Page Contains    กรุณากรอกเบอร์โทรศัพท์
+    Wait Until Page Contains    กรุณาเลือกรูป
+    Wait Until Page Contains    กรุณาเลือกไฟล์ resume
 
-no.128:ไม่กรอกข้อมูลเลยซักช่อง
+no.127:กรอกทุกช่อง
     Set Selenium Timeout    20
     Sleep    2s
     Input Text    id=fullname    ${VALID_FULLNAME}
@@ -1543,7 +1553,7 @@ no.126: ปริญญาตรี,สำเร็จการศึกษา :
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
     Wait Until Page Contains    กรุณากรอกเบอร์โทรศัพท์
 
-no.127:ไม่กรอกข้อมูลเลยซักช่อง
+no.128:ไม่กรอกข้อมูลเลยซักช่อง
     Set Selenium Timeout    20
     Sleep    2s
     บันทึกข้อมูล
