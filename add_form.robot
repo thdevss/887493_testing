@@ -19,7 +19,6 @@ Open Web and Click Login
     Click button    Sign in
     Wait Until Page Contains    Login Successful
     Sleep    8s
-    CLick element    id=addjob
 
 no.1:save successful
     ล้างข้อมูล

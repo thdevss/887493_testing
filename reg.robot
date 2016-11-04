@@ -3,9 +3,9 @@ Library           Selenium2Library
 
 *** Variables ***
 ${WEB_LINK}       http://angsila.cs.buu.ac.th/~57660132/887493/
-${VALID_USERNAME}    mylogin4
+${VALID_USERNAME}    mylogin5
 ${VALID_PASSWORD}    123132123
-${VALID_EMAIL}    mymail4@buu.ac.th
+${VALID_EMAIL}    mymail5@buu.ac.th
 ${VALID_USERNAME_II}    mulogin
 ${INVALID_EMAIL}    mymail.buu.ac.th
 
