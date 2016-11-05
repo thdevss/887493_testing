@@ -45,7 +45,7 @@ no.4:has account in db
 
 คลิ้กลิ้งค์เข้าสู่ระบบ
     Click element    link=เข้าสู่ระบบ
-    Sleep    3s
+    Sleep    1s
 
 บันทึกข้อมูล
     Click button    Sign in

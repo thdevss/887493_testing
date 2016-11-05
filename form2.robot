@@ -16,7 +16,7 @@ no.1:กรอกเฉพาะชื่อสกุล
     Open Browser    ${WEB_LINK}
     เลือกใบสมัครงาน
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณาเลือกวุฒิการศึกษา
@@ -28,7 +28,7 @@ no.1:กรอกเฉพาะชื่อสกุล
 
 no.127:กรอกทุกช่อง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -42,7 +42,7 @@ no.127:กรอกทุกช่อง
 no.2:เลือกเฉพาะวุฒการศึกษา
     เลือกใบสมัครงาน
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
@@ -54,7 +54,7 @@ no.2:เลือกเฉพาะวุฒการศึกษา
 
 no.3:กรอกเฉพาะสถานศึกษาที่จบ
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
@@ -66,7 +66,7 @@ no.3:กรอกเฉพาะสถานศึกษาที่จบ
 
 no.4:กรอกเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
@@ -78,7 +78,7 @@ no.4:กรอกเกรดเฉลี่ย
 
 no.5:กรอกเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=telephone    ${VALID_TELEPHONE}
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
@@ -90,7 +90,7 @@ no.5:กรอกเบอร์โทรศัพท์
 
 no.6:อัพโหลดรูป profile
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Choose File    id=photo    ${VALID_PHOTOFILE}
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
@@ -102,7 +102,7 @@ no.6:อัพโหลดรูป profile
 
 no.7:อัพโหลดไฟล์ resume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
@@ -114,7 +114,7 @@ no.7:อัพโหลดไฟล์ resume
 
 no.8:กรอกชื่อ-นามสกุลและวุฒิการศึกษา
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     บันทึกข้อมูล
@@ -125,7 +125,7 @@ no.8:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.9:กรอกวุฒิการษึกษาและสำเร็จการศึกษา
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     บันทึกข้อมูล
@@ -136,7 +136,7 @@ no.9:กรอกวุฒิการษึกษาและสำเร็จ
 
 no.10:กรอกเฉพาะสถานศึกษาที่จบและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     บันทึกข้อมูล
@@ -148,7 +148,7 @@ no.10:กรอกเฉพาะสถานศึกษาที่จบแ�
 
 no.11:กรอกเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     บันทึกข้อมูล
@@ -160,7 +160,7 @@ no.11:กรอกเกรดเฉลี่ยและเบอร์โท�
 
 no.12:กรอกเบอร์โทรศัพท์และรูป
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     บันทึกข้อมูล
@@ -172,7 +172,7 @@ no.12:กรอกเบอร์โทรศัพท์และรูป
 
 no.13:อัพโหลดรูป profileและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
@@ -184,7 +184,7 @@ no.13:อัพโหลดรูป profileและresume
 
 no.14:กรอกเฉพาะชื่อสกุลและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
@@ -196,7 +196,7 @@ no.14:กรอกเฉพาะชื่อสกุลและresume
 
 no.15:กรอกเฉพาะชื่อสกุลและวุฒิการศึกษาและสำเร็จการศึกษา
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -208,7 +208,7 @@ no.15:กรอกเฉพาะชื่อสกุลและวุฒิ�
 
 no.16:กรอกวุฒิการษึกษาและสำเร็จการศึกษาและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -220,7 +220,7 @@ no.16:กรอกวุฒิการษึกษาและสำเร็�
 
 no.17:กรอกเฉพาะสถานศึกษาที่จบและเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -232,7 +232,7 @@ no.17:กรอกเฉพาะสถานศึกษาที่จบแ�
 
 no.18:กรอกเกรดเฉลี่ยและเบอร์โทรศัพท์และรูป
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -244,7 +244,7 @@ no.18:กรอกเกรดเฉลี่ยและเบอร์โท�
 
 no.19:กรอกเบอร์โทรศัพท์และรูปและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -256,7 +256,7 @@ no.19:กรอกเบอร์โทรศัพท์และรูปแ�
 
 no.20:กรอกชื่อสกุลและรูปและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -268,7 +268,7 @@ no.20:กรอกชื่อสกุลและรูปและresume
 
 no.21:กรอกชื่อสกุลและวุฒิการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -280,7 +280,7 @@ no.21:กรอกชื่อสกุลและวุฒิการศึ�
 
 no.22:กรอกชื่อ-นามสกุลและวุฒิการศึกษาและสถานศึกษาและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -292,7 +292,7 @@ no.22:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.23:กรอกวุฒิการษึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -304,7 +304,7 @@ no.23:กรอกวุฒิการษึกษาและสำเร็�
 
 no.24:กรอกสถานศึกษาที่จบและเกรดเฉลี่ยและเบอร์โทรศัพท์และรูป
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -316,7 +316,7 @@ no.24:กรอกสถานศึกษาที่จบและเกร�
 
 no.25:กรอกเกรดเฉลี่ยและเบอร์โทรศัพท์และรูปและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -328,7 +328,7 @@ no.25:กรอกเกรดเฉลี่ยและเบอร์โท�
 
 no.26:กรอกชื่อสกุลและเบอร์โทรศัพท์และรูปและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -340,7 +340,7 @@ no.26:กรอกชื่อสกุลและเบอร์โทรศ�
 
 no.27:กรอกชื่อสกุลและวุฒิการศึกษาและรูปและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -352,7 +352,7 @@ no.27:กรอกชื่อสกุลและวุฒิการศึ�
 
 no.28:กรอกชื่อสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -364,7 +364,7 @@ no.28:กรอกชื่อสกุลและวุฒิการศึ�
 
 no.29:กรอกชื่อสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -376,7 +376,7 @@ no.29:กรอกชื่อสกุลและวุฒิการศึ�
 
 no.30:กรอกวุฒิการศึกษาและสำเร็จการศึกษาเและกรดเฉลี่ยและเบอร์โทรศัพท์และรูป
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -388,7 +388,7 @@ no.30:กรอกวุฒิการศึกษาและสำเร็�
 
 no.31:สำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์และ รูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -400,7 +400,7 @@ no.31:สำเร็จการศึกษาและเกรดเฉล�
 
 no.32:กรอกชื่อนามสกุลและเกรดเฉลี่ยและเบอร์โทรศัพท์และรูปหน้าตรงและ resume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -412,7 +412,7 @@ no.32:กรอกชื่อนามสกุลและเกรดเฉ�
 
 no.33:กรอกชื่อนามสกุลและวุฒิการศึกษาและเบอร์โทรศัพท์และรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -424,7 +424,7 @@ no.33:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.34:กรอกชื่อนามสกุและวุฒิการศึกษาและสำเร็จการศึกษาและรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -436,7 +436,7 @@ no.34:กรอกชื่อนามสกุและวุฒิการ�
 
 no.35:กรอกชื่อนามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -448,7 +448,7 @@ no.35:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.36:กรอกชื่อนามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์และรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -460,7 +460,7 @@ no.36:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.37:กรอกวุฒิการศึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์และรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -472,7 +472,7 @@ no.37:กรอกวุฒิการศึกษาและสำเร็�
 
 no.38:กรอกชื่อนามสกุลและสำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์และรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -484,7 +484,7 @@ no.38:กรอกชื่อนามสกุลและสำเร็จ�
 
 no.39:กรอกชื่อนามสกุลและวุฒิการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์และรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -496,7 +496,7 @@ no.39:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.40:กรอกชื่อนามสกุลแลวุฒิการศึกษาและสำเร็จการศึกษาและเบอร์โทรศัพท์และรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -508,7 +508,7 @@ no.40:กรอกชื่อนามสกุลแลวุฒิการ�
 
 no.41:กรอกชื่อนามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -520,7 +520,7 @@ no.41:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.42:กรอกชื่อนามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์และresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -531,7 +531,7 @@ no.42:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.43:กรอกชื่อนามสกุลและสำเร็จการศึกษา
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     บันทึกข้อมูล
@@ -543,7 +543,7 @@ no.43:กรอกชื่อนามสกุลและสำเร็จ�
 
 no.44:กรอกชื่อนามสกุลและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     บันทึกข้อมูล
@@ -555,7 +555,7 @@ no.44:กรอกชื่อนามสกุลและเกรดเฉ�
 
 no.45:กรอกชื่อนามสกุลและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     บันทึกข้อมูล
@@ -567,7 +567,7 @@ no.45:กรอกชื่อนามสกุลและเบอร์โ�
 
 no.46:กรอกชื่อนามสกุลและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     บันทึกข้อมูล
@@ -579,7 +579,7 @@ no.46:กรอกชื่อนามสกุลและรูปหน้�
 
 no.47:กรอกวุฒิการศึกษาและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     บันทึกข้อมูล
@@ -591,7 +591,7 @@ no.47:กรอกวุฒิการศึกษาและเกรดเ�
 
 no.48:กรอกุฒิการศึกษาและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
     บันทึกข้อมูล
@@ -603,7 +603,7 @@ no.48:กรอกุฒิการศึกษาและเบอร์โ�
 
 no.49:กรอกุฒิการศึกษาและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Choose File    id=photo    ${VALID_PHOTOFILE}
     บันทึกข้อมูล
@@ -615,7 +615,7 @@ no.49:กรอกุฒิการศึกษาและรูปหน้�
 
 no.50:กรอกวุฒิการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
@@ -627,7 +627,7 @@ no.50:กรอกวุฒิการศึกษาและresume
 
 no.51:กรอกสำเร็จการศึกษาและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     บันทึกข้อมูล
@@ -639,7 +639,7 @@ no.51:กรอกสำเร็จการศึกษาและเบอ�
 
 no.52:กรอกสำเร็จการศึกษาและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     บันทึกข้อมูล
@@ -651,7 +651,7 @@ no.52:กรอกสำเร็จการศึกษาและรูป�
 
 no.53:กรอกสำเร็จการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
@@ -663,7 +663,7 @@ no.53:กรอกสำเร็จการศึกษาและresume
 
 no.54:กรอกเกรดเฉลี่ยและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     บันทึกข้อมูล
@@ -675,7 +675,7 @@ no.54:กรอกเกรดเฉลี่ยและรูปหน้า�
 
 no.55:กรอกเกรดเฉลี่ยและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
@@ -687,7 +687,7 @@ no.55:กรอกเกรดเฉลี่ยและresume
 
 no.56:กรอกเบอร์โทรศัพท์และresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
     บันทึกข้อมูล
@@ -699,7 +699,7 @@ no.56:กรอกเบอร์โทรศัพท์และresume
 
 no.57:กรอกชื่อนามสกุลและวุฒิการศึกษาและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -711,7 +711,7 @@ no.57:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.58:กรอกชื่อนามสกุลและวุฒิการศึกษาและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -723,7 +723,7 @@ no.58:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.59:กรอกชื่อนามสกุลและวุฒิการศึกษาและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -735,7 +735,7 @@ no.59:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.60:กรอกชื่อนามสกุลและวุฒิการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -747,7 +747,7 @@ no.60:กรอกชื่อนามสกุลและวุฒิกา�
 
 no.61:กรอกชื่อ-นามสกุลและสำเร็จการศึกษาและเกรดเฉลี่ย
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -759,7 +759,7 @@ no.61:กรอกชื่อ-นามสกุลและสำเร็จ�
 
 no.62:กรอกชื่อ-นามสกุลและสำเร็จการศึกษาและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -771,7 +771,7 @@ no.62:กรอกชื่อ-นามสกุลและสำเร็จ�
 
 no.63:กรอกชื่อ-นามสกุลและสำเร็จการศึกษาและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -783,7 +783,7 @@ no.63:กรอกชื่อ-นามสกุลและสำเร็จ�
 
 no.64:กรอกชื่อ-นามสกุลและสำเร็จการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -795,7 +795,7 @@ no.64:กรอกชื่อ-นามสกุลและสำเร็จ�
 
 no.65:กรอกชื่อ-นามสกุลและเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -807,7 +807,7 @@ no.65:กรอกชื่อ-นามสกุลและเกรดเฉ�
 
 no.66:กรอกชื่อ-นามสกุลและเกรดเฉลี่ยและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -819,7 +819,7 @@ no.66:กรอกชื่อ-นามสกุลและเกรดเฉ�
 
 no.67:กรอกชื่อ-นามสกุลและเกรดเฉลี่ยและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -831,7 +831,7 @@ no.67:กรอกชื่อ-นามสกุลและเกรดเฉ�
 
 no.68:กรอกชื่อ-นามสกุลและเบอร์โทรศัพท์และรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -843,7 +843,7 @@ no.68:กรอกชื่อ-นามสกุลและเบอร์โ�
 
 no.69:กรอกชื่อ-นามสกุลและเบอร์โทรศัพท์และresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -855,7 +855,7 @@ no.69:กรอกชื่อ-นามสกุลและเบอร์โ�
 
 no.70:กรอกวุฒิการศึกษาและสำเร็จการศึกษาและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -867,7 +867,7 @@ no.70:กรอกวุฒิการศึกษาและสำเร็�
 
 no.71:กรอกวุฒิการศึกษาและสำเร็จการศึกษาและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -879,7 +879,7 @@ no.71:กรอกวุฒิการศึกษาและสำเร็�
 
 no.72:กรอกวุฒิการศึกษาและสำเร็จการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -891,7 +891,7 @@ no.72:กรอกวุฒิการศึกษาและสำเร็�
 
 no.73:กรอกวุฒิการศึกษาและเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -903,7 +903,7 @@ no.73:กรอกวุฒิการศึกษาและเกรดเ�
 
 no.74:กรอกวุฒิการศึกษาและเกรดเฉลี่ยและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -915,7 +915,7 @@ no.74:กรอกวุฒิการศึกษาและเกรดเ�
 
 no.75:กรอกวุฒิการศึกษาและเกรดเฉลี่ยและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -927,7 +927,7 @@ no.75:กรอกวุฒิการศึกษาและเกรดเ�
 
 no.76:กรอกวุฒิการศึกษาและเบอร์โทรศัพท์และรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -939,7 +939,7 @@ no.76:กรอกวุฒิการศึกษาและเบอร์�
 
 no.77:กรอกวุฒิการศึกษาและเบอร์โทรศัพท์และresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -951,7 +951,7 @@ no.77:กรอกวุฒิการศึกษาและเบอร์�
 
 no.78:กรอกุฒิการศึกษาและรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -963,7 +963,7 @@ no.78:กรอกุฒิการศึกษาและรูปหน้�
 
 no.79:กรอกสำเร็จการศึกษาและเกรดเฉลี่ยและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -975,7 +975,7 @@ no.79:กรอกสำเร็จการศึกษาและเกร�
 
 no.80:กรอกสำเร็จการศึกษาและเกรดเฉลี่ยและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -987,7 +987,7 @@ no.80:กรอกสำเร็จการศึกษาและเกร�
 
 no.81:กรอกสำเร็จการศึกษาและเบอร์โทรศัพท์และรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -999,7 +999,7 @@ no.81:กรอกสำเร็จการศึกษาและเบอ�
 
 no.82:กรอกสำเร็จการศึกษาและเบอร์โทรศัพท์และresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -1011,7 +1011,7 @@ no.82:กรอกสำเร็จการศึกษาและเบอ�
 
 no.83:กรอกสำเร็จการศึกษาและรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -1023,7 +1023,7 @@ no.83:กรอกสำเร็จการศึกษาและรูป�
 
 no.84:กรอกเกดรเฉลี่ยและเบอร์โทรศัพท์และresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -1035,7 +1035,7 @@ no.84:กรอกเกดรเฉลี่ยและเบอร์โท�
 
 no.85:กรอกเกดรเฉลี่ยและรูปหน้าตรงและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
     Choose File    id=resume_file    ${VALID_RESUMEFILE}
@@ -1047,7 +1047,7 @@ no.85:กรอกเกดรเฉลี่ยและรูปหน้า�
 
 no.86:กรอกชื่อ-นามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1059,7 +1059,7 @@ no.86:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.87:กรอกชื่อ-นามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1071,7 +1071,7 @@ no.87:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.88:กรอกชื่อ-นามสกุลและวุฒิการศึกษาและสำเร็จการศึกษาและresume
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1083,7 +1083,7 @@ no.88:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.89:กรอกชื่อ-นามสกุลและวุฒิการศึกษาและและเกรดเฉลี่ยและเบอร์โทรศัพท์
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1095,7 +1095,7 @@ no.89:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.90:กรอกชื่อ-นามสกุลและวุฒิการศึกษาและและเกรดเฉลี่ยและรูปหน้าตรง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1107,7 +1107,7 @@ no.90:กรอกชื่อ-นามสกุลและวุฒิกา�
 
 no.91:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99, ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1119,7 +1119,7 @@ no.91:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.92:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1131,7 +1131,7 @@ no.92:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.93:ชื่อ-นามสกุล : ศานติกร อภัย,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1143,7 +1143,7 @@ no.93:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.94:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99, ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1155,7 +1155,7 @@ no.94:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.95:ชื่อ-นามสกุล : ศานติกร อภัย,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1167,7 +1167,7 @@ no.95:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.96:ชื่อ-นามสกุล : ศานติกร อภัย,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922, ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1179,7 +1179,7 @@ no.96:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.97:ชื่อ-นามสกุล : ศานติกร อภัย,เกรดเฉลี่ย : 3.99,รูปหน้าตรง : /picture.jpg :ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -1191,7 +1191,7 @@ no.97:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.98:วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1203,7 +1203,7 @@ no.98:วุฒิการศึกษา : ปริญญาตรี,สำ�
 
 no.99:วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1215,7 +1215,7 @@ no.99:วุฒิการศึกษา : ปริญญาตรี,สำ�
 
 no.100:กรอกลือกวุฒิการศึกษา, กรอกเกรดให้ถูกต้อง, กรอกเบอร์โทรศัพท์, เลือกรูป
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1227,7 +1227,7 @@ no.100:กรอกลือกวุฒิการศึกษา, กรอ�
 
 no.101:วุฒิการศึกษา : ปริญญาตรี,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1239,7 +1239,7 @@ no.101:วุฒิการศึกษา : ปริญญาตรี,เก
 
 no.102:วุฒิการศึกษา : ปริญญาตรี,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1251,7 +1251,7 @@ no.102:วุฒิการศึกษา : ปริญญาตรี,เบ
 
 no.103:สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
     Choose File    id=photo    ${VALID_PHOTOFILE}
@@ -1263,7 +1263,7 @@ no.103:สำเร็จการศึกษา : มหาวิทยาล�
 
 no.104:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,เกรดเฉลี่ย : 3.99,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1275,7 +1275,7 @@ no.104:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.105:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,เกรดเฉลี่ย : 3.99,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1287,9 +1287,9 @@ no.105:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.106:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1301,9 +1301,9 @@ no.106:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.107:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,เบอร์โทรศัพท์ : 082-299-9922,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1315,9 +1315,9 @@ no.107:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.108:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1329,9 +1329,9 @@ no.108:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.109:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1343,9 +1343,9 @@ no.109:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.110:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรีเกรดเฉลี่ย : 3.99,รูปหน้าตรง : /picture.jpg,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1357,9 +1357,9 @@ no.110:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.111:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1371,9 +1371,9 @@ no.111:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.112:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,รูปหน้าตรง : /picture.jpg,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1385,9 +1385,9 @@ no.112:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.113:ชื่อ-นามสกุล : ศานติกร อภัย,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1399,7 +1399,7 @@ no.113:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.114:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : มหาวิทยาลัยบูรพา,รูปหน้าตรง : /picture.jpg,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1411,7 +1411,7 @@ no.114:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.115:ชื่อ-นามสกุล : ศานติกร อภัย,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg,ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1423,7 +1423,7 @@ no.115:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.116:no name, photo field
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1435,7 +1435,7 @@ no.116:no name, photo field
 
 no.117:no name, q_from field
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1447,7 +1447,7 @@ no.117:no name, q_from field
 
 no.118:no gradu, photo field
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1459,7 +1459,7 @@ no.118:no gradu, photo field
 
 no.119:no gradu, telephone field
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1471,7 +1471,7 @@ no.119:no gradu, telephone field
 
 no.120:ชื่อ-นามสกุล : ศานติกร อภัย,,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg :
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1483,7 +1483,7 @@ no.120:ชื่อ-นามสกุล : ศานติกร อภัย,,
 
 no.121:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg :ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1495,7 +1495,7 @@ no.121:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.122:no name, photo
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1507,7 +1507,7 @@ no.122:no name, photo
 
 no.123:ชื่อ-นามสกุล : ศานติกร อภัย,สำเร็จการศึกษา : ม.บูรพา,,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg : ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1519,7 +1519,7 @@ no.123:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.124:วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เบอร์โทรศัพท์ : 082-299-9922,รูปหน้าตรง : /picture.jpg :ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=telephone    ${VALID_TELEPHONE}
@@ -1531,7 +1531,7 @@ no.124:วุฒิการศึกษา : ปริญญาตรี,สำ
 
 no.125:ชื่อ-นามสกุล : ศานติกร อภัย,วุฒิการศึกษา : ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,,รูปหน้าตรง : /picture.jpg:ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Input Text    id=fullname    ${VALID_FULLNAME}
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
@@ -1543,7 +1543,7 @@ no.125:ชื่อ-นามสกุล : ศานติกร อภัย,�
 
 no.126: ปริญญาตรี,สำเร็จการศึกษา : ม.บูรพา,เกรดเฉลี่ย : 3.99,เบอร์โทรศัพท์ : 082-299-9922 ไฟล์ resume : resume.pdf
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     Select Radio Button    qualification    ม.3
     Input Text    id=qualification_from    ${VALID_GRADUATION}
     Input Text    id=avg_grade    ${VALID_AVGGRADE}
@@ -1555,7 +1555,7 @@ no.126: ปริญญาตรี,สำเร็จการศึกษา :
 
 no.128:ไม่กรอกข้อมูลเลยซักช่อง
     Set Selenium Timeout    20
-    Sleep    2s
+    Sleep    1s
     บันทึกข้อมูล
     Wait Until Page Contains    กรุณากรอกชื่อ - นามสกุล
     Wait Until Page Contains    กรุณาเลือกวุฒิการศึกษา
@@ -1573,7 +1573,7 @@ no.128:ไม่กรอกข้อมูลเลยซักช่อง
     Click element    link=งานล่าสุด
     Sleep    1s
     Click element    link=กรอกใบสมัคร
-    Sleep    3s
+    Sleep    1s
 
 บันทึกข้อมูล
     Click button    บันทึกข้อมูล
