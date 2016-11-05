@@ -8,8 +8,8 @@ ${VALID_QUALIFICATION}    ปริญญาตรี
 ${VALID_GRADUATION}    ม.บูรพา
 ${VALID_AVGGRADE}    3.99
 ${VALID_TELEPHONE}    082-299-9922
-${VALID_PHOTOFILE}    /Users/a57660132/robottest/887493/profile.jpg
-${VALID_RESUMEFILE}    /Users/a57660132/robottest/887493/resume.pdf
+${VALID_PHOTOFILE}    ${CURDIR}/profile.jpg
+${VALID_RESUMEFILE}    ${CURDIR}/resume.pdf
 
 *** Testcases ***
 no.1:กรอกเฉพาะชื่อสกุล
